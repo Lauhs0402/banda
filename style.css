@@ -105,6 +105,12 @@ footer {
   .comment-form textarea::placeholder {
     color: #999;
   }
+
+  .bts-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
   
 
 /* Responsive Styles */
@@ -149,6 +155,12 @@ footer {
       width: 100%;
     }
   }
+
+  .bts-image {
+    text-align: center;
+  }
+  
+  
  
   
   
