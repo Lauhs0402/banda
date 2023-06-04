@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #7f00ff;
+  background-color: #9a66cb;
   padding: 20px;
   color: #fff;
 }
@@ -34,12 +34,24 @@ section {
   background-color: #fff;
 }
 
+section#about {
+    text-align: center;
+  }
+  
+  section#about p {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 20px;
+  }
+  
+
 h2 {
-  color: #7f00ff;
+  color: #9a66cb;
 }
 
 footer {
-  background-color: #7f00ff;
+  background-color: #9a66cb;
   padding: 20px;
   color: #fff;
   text-align: center;
@@ -54,7 +66,7 @@ footer {
 
 .comment .author {
   font-weight: bold;
-  color: #7f00ff;
+  color: #9a66cb;
 }
 
 .comment .date {
@@ -89,7 +101,7 @@ footer {
   }
   
   .comment-form input[type="submit"] {
-    background-color: #7f00ff;
+    background-color: #9a66cb;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -98,7 +110,7 @@ footer {
   }
   
   .comment-form input[type="submit"]:hover {
-    background-color: #4c0099;
+    background-color: #9a66cb;
   }
   
   .comment-form input[type="text"]::placeholder,
