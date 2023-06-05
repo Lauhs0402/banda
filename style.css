@@ -35,16 +35,15 @@ section {
 }
 
 section#about {
-    text-align: center;
-  }
-  
-  section#about p {
-    max-width: 1300px;
-    margin: 0 auto;
-    text-align: justify;
-    padding-top: 20px;
-  }
-  
+  text-align: center;
+}
+
+section#about p {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 20px;
+}
 
 h2 {
   color: #9a66cb;
@@ -78,52 +77,45 @@ footer {
   margin-top: 5px;
 }
 
-
-
-
-
-
 /* styles.css */
 
 .comment-form {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  .comment-form input[type="text"],
-  .comment-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-  }
-  
-  .comment-form input[type="submit"] {
-    background-color: #9a66cb;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
-  .comment-form input[type="submit"]:hover {
-    background-color: #9a66cb;
-  }
-  
-  .comment-form input[type="text"]::placeholder,
-  .comment-form textarea::placeholder {
-    color: #999;
-  }
+  max-width: 400px;
+  margin: 0 auto;
+}
 
-  .bts-image img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  
+.comment-form input[type="text"],
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.comment-form input[type="submit"] {
+  background-color: #9a66cb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.comment-form input[type="submit"]:hover {
+  background-color: #9a66cb;
+}
+
+.comment-form input[type="text"]::placeholder,
+.comment-form textarea::placeholder {
+  color: #999;
+}
+
+.bts-image img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* Responsive Styles */
 
@@ -152,29 +144,42 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .comment-form {
-      max-width: 100%;
-      padding: 0 20px;
-    }
-    
-    .comment-form input[type="text"],
-    .comment-form textarea {
-      margin-right: 0;
-    }
-    
-    .comment-form input[type="submit"] {
-      display: block;
-      width: 100%;
-    }
+  .comment-form {
+    max-width: 100%;
+    padding: 0 20px;
   }
 
-  .bts-image {
-    text-align: center;
+  .comment-form input[type="text"],
+  .comment-form textarea {
+    margin-right: 0;
   }
-  
-  
- 
-  
-  
-  
-  
+
+  .comment-form input[type="submit"] {
+    display: block;
+    width: 100%;
+  }
+}
+
+.bts-image {
+  text-align: center;
+}
+
+.song-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.song-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.song-list li i {
+  margin-right: 10px;
+  color: purple;
+}
+
+.song-title {
+  font-weight: bold;
+}
