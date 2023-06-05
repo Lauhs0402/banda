@@ -162,6 +162,8 @@ footer {
 
 .bts-image {
   text-align: center;
+  max-width: 800px; /* Ajusta el valor según tus preferencias */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
 .song-list {
@@ -182,4 +184,10 @@ footer {
 
 .song-title {
   font-weight: bold;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* O el número de columnas y el ancho deseado para cada una */
+  gap: 10px; /* Espacio entre los elementos */
 }
