@@ -195,3 +195,9 @@ ul {
   grid-template-columns: repeat(2, 1fr); /* O el número de columnas y el ancho deseado para cada una */
   gap: 10px; /* Espacio entre los elementos */
 }
+
+#experiences p {
+  text-align: center;
+  margin: 0 20px;
+  font-style: italic;
+}
