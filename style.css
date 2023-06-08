@@ -145,6 +145,14 @@ footer {
   ul {
     grid-template-columns: 1fr;
   }
+
+  #experiences {
+    margin: 10px; /* Margen reducido para pantallas pequeñas */
+  }
+
+  #experiences p {
+    padding: 5px; /* Padding reducido para pantallas pequeñas */
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -196,8 +204,24 @@ ul {
   gap: 10px; /* Espacio entre los elementos */
 }
 
+#experiences {
+  text-align: center;
+  margin: 20px 40px;
+}
+
+#experiences h2 {
+  margin-bottom: 10px;
+}
+
 #experiences p {
   text-align: center;
-  margin: 0 20px;
+  margin: 20px 40px;
   font-style: italic;
+  background-color: #9a66cb;
+  padding: 10px 10px;
+  color: #f2f2f2;
+  max-width: 800px; /* Ancho máximo para evitar que el texto se extienda demasiado en pantallas grandes */
+  word-wrap: break-word; 
+
 }
+
