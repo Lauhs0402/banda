@@ -157,6 +157,13 @@ footer {
     padding: 5px; /* Padding reducido para pantallas pequeñas */
     font-family: 16px;
   }
+
+   /* Estilos específicos para pantallas más pequeñas */
+   #comment-form input[type="text"],
+   #comment-form textarea,
+   #comment-form input[type="button"] {
+     max-width: 100%; /* Ancho máximo completo en pantallas pequeñas */
+   }
 }
 
 @media screen and (max-width: 600px) {
