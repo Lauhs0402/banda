@@ -215,12 +215,12 @@ ul {
 
 #experiences p {
   text-align: center;
-  margin: 20px 40px;
+  margin: 20px auto;
   font-style: italic;
   background-color: #9a66cb;
   padding: 10px 10px;
   color: #f2f2f2;
-  max-width: 800px; /* Ancho máximo para evitar que el texto se extienda demasiado en pantallas grandes */
+  max-width: 1000px; /* Ancho máximo para evitar que el texto se extienda demasiado en pantallas grandes */
   word-wrap: break-word; 
 
 }
