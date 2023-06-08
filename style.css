@@ -155,6 +155,7 @@ footer {
 
   #experiences p {
     padding: 5px; /* Padding reducido para pantallas pequeñas */
+    font-family: 16px;
   }
 }
 
