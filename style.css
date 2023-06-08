@@ -120,6 +120,10 @@ footer {
 /* Responsive Styles */
 
 @media (max-width: 768px) {
+  .navbar li {
+    margin-bottom: 5px;
+  }
+
   header h1 {
     font-size: 20px;
   }
@@ -235,4 +239,25 @@ ul {
   word-wrap: break-word; 
 
 }
+@media screen and (min-width: 1024px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+}
 
+/* Estilos para tablets */
+@media screen and (max-width: 1023px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar li {
+    margin-bottom: 10px;
+  }
+}
