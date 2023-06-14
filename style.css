@@ -117,79 +117,6 @@ footer {
   height: auto;
 }
 
-/* Responsive Styles */
-
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-  .navbar li {
-    margin-bottom: 5px;
-  }
-
-  header h1 {
-    font-size: 20px;
-  }
-  header {
-    padding: 10px;
-  }
-
-  nav {
-    margin-top: 5px;
-  }
-
-  section {
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-
-  footer {
-    padding: 10px;
-  }
-
-  .comment-form textarea,
-  .comment-form input[type="submit"] {
-    width: 100%;
-  }
-
-  ul {
-    display: block;
-  }
-
-  #experiences {
-    margin: 10px; /* Margen reducido para pantallas pequeñas */
-  }
-
-  #experiences p {
-    padding: 5px; /* Padding reducido para pantallas pequeñas */
-    font-family: 16px;
-  }
-
-   /* Estilos específicos para pantallas más pequeñas */
-   #comment-form input[type="text"],
-   #comment-form textarea,
-   #comment-form input[type="button"] {
-     max-width: 100%; /* Ancho máximo completo en pantallas pequeñas */
-   }
-}
-
-@media screen and (max-width: 600px) {
-  .comment-form {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-
-  .comment-form input[type="text"],
-  .comment-form textarea {
-    margin-right: 0;
-  }
-
-  .comment-form input[type="submit"] {
-    display: block;
-    width: 100%;
-  }
-}
-
 .bts-image {
   text-align: center;
   max-width: 800px; /* Ajusta el valor según tus preferencias */
@@ -260,4 +187,149 @@ ul {
   border: none;
   background-color: #e6e6e6;
   border-radius: 4px;
+}
+
+.bts-image {
+  text-align: center;
+  max-width: 800px; /* Ajusta el valor según tus preferencias */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.song-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.song-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.song-list li i {
+  margin-right: 10px;
+  color: purple;
+}
+
+.song-title {
+  font-weight: bold;
+}
+
+#experiences {
+  text-align: center;
+  margin: 20px 40px;
+}
+
+#experiences h2 {
+  margin-bottom: 10px;
+}
+
+#experiences p {
+  text-align: center;
+  margin: 20px auto;
+  font-style: italic;
+  background-color: #9a66cb;
+  padding: 10px 10px;
+  color: #f2f2f2;
+  max-width: 1000px; /* Ancho máximo para evitar que el texto se extienda demasiado en pantallas grandes */
+  word-wrap: break-word; 
+  font-size: 20px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input[type="text"] {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.search-form button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+}
+
+
+
+/* Responsive Styles */
+
+@media (min-width: 200px) {
+  body {
+    font-size: 14px;
+  }
+  .navbar li {
+    margin-bottom: 5px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+  header {
+    padding: 10px;
+  }
+
+  nav {
+    margin-top: 5px;
+  }
+
+  section {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  .comment-form textarea,
+  .comment-form input[type="submit"] {
+    width: 100%;
+  }
+
+  ul {
+    display: block;
+  }
+
+  #experiences {
+    margin: 10px; /* Margen reducido para pantallas pequeñas */
+  }
+
+  #experiences p {
+    padding: 5px; /* Padding reducido para pantallas pequeñas */
+    font-size: 24px;
+  }
+
+   /* Estilos específicos para pantallas más pequeñas */
+   #comment-form input[type="text"],
+   #comment-form textarea,
+   #comment-form input[type="button"] {
+     max-width: 100%; /* Ancho máximo completo en pantallas pequeñas */
+   }
+
+   .comment-form {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .comment-form input[type="text"],
+  .comment-form textarea {
+    margin-right: 0;
+  }
+
+  .comment-form input[type="submit"] {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px){
+  ul {display: grid;
+  grid-template-columns: repeat(2, 1fr); /* O el número de columnas y el ancho deseado para cada una */
+  gap: 10px; /* Espacio entre los elementos */}
 }
