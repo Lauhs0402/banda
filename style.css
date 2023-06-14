@@ -264,6 +264,10 @@ ul {
     font-size: 14px;
   }
 
+  section h2{
+    font-size: 3rem;
+  }
+
   p{
     font-size: 2rem;
   }
@@ -301,9 +305,13 @@ ul {
       grid-template-columns: repeat(1, 1fr); /* O el número de columnas y el ancho deseado para cada una */
       gap: 10px; /* Espacio entre los elementos */
   }
+  li{
+    background-color: #cba4c4;
+    border-radius: 10px;
+  }
 
   .songs-list{
-    max-width: 90%;
+    max-width: 100%;
   }
 
   #experiences {
