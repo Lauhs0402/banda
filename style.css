@@ -302,7 +302,8 @@ ul {
 
   #experiences p {
     padding: 5px; /* Padding reducido para pantallas pequeñas */
-    font-size: 24px;
+    font-size: 2rem;
+    max-width: 100%;
   }
 
    /* Estilos específicos para pantallas más pequeñas */
