@@ -120,6 +120,9 @@ footer {
 /* Responsive Styles */
 
 @media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
   .navbar li {
     margin-bottom: 5px;
   }
@@ -150,7 +153,7 @@ footer {
   }
 
   ul {
-    grid-template-columns: 1fr;
+    display: block;
   }
 
   #experiences {
@@ -238,28 +241,6 @@ ul {
   max-width: 1000px; /* Ancho máximo para evitar que el texto se extienda demasiado en pantallas grandes */
   word-wrap: break-word; 
 
-}
-@media screen and (min-width: 1024px) {
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .navbar li {
-    margin-right: 20px;
-  }
-}
-
-/* Estilos para tablets */
-@media screen and (max-width: 1023px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .navbar li {
-    margin-bottom: 10px;
-  }
 }
 
 .search-form {
