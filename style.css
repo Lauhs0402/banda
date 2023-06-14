@@ -293,7 +293,13 @@ ul {
   }
 
   ul {
-    display: block;
+    display: grid;
+      grid-template-columns: repeat(1, 1fr); /* O el número de columnas y el ancho deseado para cada una */
+      gap: 10px; /* Espacio entre los elementos */
+  }
+
+  .songs-list{
+    max-width: 90%;
   }
 
   #experiences {
