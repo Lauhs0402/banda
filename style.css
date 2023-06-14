@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #f2f2f2;
   color: #333;
   margin: 0;
@@ -12,9 +12,9 @@ header {
   background-color: #dfb0cf;
   padding: 20px;
   color: #333;
-  position: fixed;
+  position: sticky;
   width: 100%;
-  top: 0;
+  
 }
 
 header h1 {
@@ -275,6 +275,7 @@ ul {
     font-size: 14px;
   }
 
+  
   section h2{
     font-size: 3rem;
   }
@@ -291,7 +292,7 @@ ul {
   }
 
   header h1 {
-    font-size: 20px;
+    font-size: 3.2rem;
   }
   header {
     padding: 10px;
