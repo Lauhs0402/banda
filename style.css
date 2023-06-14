@@ -11,7 +11,7 @@ body {
 header {
   background-color: #dfb0cf;
   padding: 20px;
-  color: #fff;
+  color: #333;
   position: fixed;
   width: 100%;
   top: 0;
@@ -26,10 +26,14 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   margin-right: 10px;
   
+}
+
+nav ul {
+  list-style: none;
 }
 
 
