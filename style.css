@@ -9,9 +9,12 @@ body {
 }
 
 header {
-  background-color: #9a66cb;
+  background-color: #dfb0cf;
   padding: 20px;
   color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 header h1 {
@@ -26,7 +29,10 @@ nav a {
   color: #fff;
   text-decoration: none;
   margin-right: 10px;
+  
 }
+
+
 
 section {
   padding: 20px;
@@ -50,9 +56,9 @@ h2 {
 }
 
 footer {
-  background-color: #9a66cb;
+  background-color: #cba4c4;
   padding: 20px;
-  color: #fff;
+  color: #333;
   text-align: center;
 }
 
@@ -95,7 +101,7 @@ footer {
 }
 
 .comment-form input[type="submit"] {
-  background-color: #9a66cb;
+  background-color: #cba4c4;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -310,7 +316,7 @@ ul {
       grid-template-columns: repeat(1, 1fr); /* O el número de columnas y el ancho deseado para cada una */
       gap: 10px; /* Espacio entre los elementos */
   }
-  li{
+  .song-list li{
     background-color: #cba4c4;
     border-radius: 10px;
   }
