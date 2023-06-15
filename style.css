@@ -369,7 +369,7 @@ ul {
   
   }
 
-  .navbar li{
+  .navbar{
     display: none; /* Ocultar la lista del menú en modo móvil */
   }
 
