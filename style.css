@@ -268,6 +268,7 @@ ul {
 
 
 
+
 /* Responsive Styles */
 
 @media (min-width: 200px) {
@@ -362,10 +363,31 @@ ul {
     display: block;
     width: 100%;
   }
+
+  .menu-icon {
+    display: block; /* Mostrar el ícono del menú de hamburguesa en modo móvil */
+  
+  }
+
+  .navbar li{
+    display: none; /* Ocultar la lista del menú en modo móvil */
+  }
+
+  .navbar.active {
+    display: block; /* Mostrar la lista del menú cuando se activa el menú de hamburguesa */
+  }
 }
 
 @media (min-width: 1024px){
   ul {display: grid;
   grid-template-columns: repeat(2, 1fr); /* O el número de columnas y el ancho deseado para cada una */
   gap: 10px; /* Espacio entre los elementos */}
+
+  .navbar li{
+    display: block; /* Ocultar la lista del menú en modo móvil */
+  }
+  .menu-icon {
+    display: none; /* Ocultar el ícono del menú de hamburguesa en modo escritorio */
+  }
+  
 }

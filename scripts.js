@@ -51,3 +51,13 @@ function submitComment() {
   var submitButton = document.getElementById('submit-btn');
   submitButton.addEventListener('click', submitComment);
   
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuIcon = document.querySelector('.menu-icon');
+    const navbar = document.querySelector('.navbar');
+  
+    menuIcon.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+  });
+  
