@@ -378,7 +378,7 @@ ul {
   }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 769px){
   ul {display: grid;
   grid-template-columns: repeat(2, 1fr); /* O el número de columnas y el ancho deseado para cada una */
   gap: 10px; /* Espacio entre los elementos */}
@@ -391,3 +391,8 @@ ul {
   }
   
 }
+
+/*boostrao*/
+
+
+  
